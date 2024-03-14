@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bc{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.356)),url(./war-conflict-landscape-with-people-fighting.jpg);
+       background-size: cover;
+       background-position: center;
+       height: 100vh;
+}
+.name{
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+   
+}
+.army{
+    font-family: 'Shrikhand', serif;
+    font-size: 13vw;
+    background-image: url(./war-conflict-landscape-with-soldiers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;  
+}
+.slogan{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+.pratyuday{
+    font-style: italic;
+    margin-bottom: -20px;
+}
+.ul{
+    margin: 20px auto 0;
+}
+.ul a{
+   width: 150px;
+   padding: 15px 0;
+   text-decoration: none;
+   color: white;
+   border: 1px solid white;
+   margin: 0 10px;
+   display: inline-block;
+   position: relative;
+   z-index: 1;
+   transition: color 0.5s;
+   border-radius: 30px;
+}
+.ul a span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background: white;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    transition:0.5s;
+    border-radius: 30px;
+
+}
+.ul a:hover span{
+       width: 100%;
+}
+.ul a:hover{
+    color: black;
+}
+.logo{
+    height:150px;
+    width: 100px;
+    position: absolute;
+    mix-blend-mode:screen;
+    margin-left: 50px;
+    margin-top: -25px;
+    
+}
+ul{
+    margin-left: 200px;
+    list-style: none;
+     
+}
+.list{
+    position: fixed;
+    margin-top: 15px;
+    font-style: oblique;
+    font-weight: bold;
+}
+ul li a{
+    text-decoration: none;
+    color: white;    
+    display: flex;
+    margin-top: 25px;
+    padding: 30px ;
+    font-size: 19px;
+    padding-top: 5px;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color: rgba(113, 227, 255, 0.849);
+}
+ul li{
+    float: left;
+}
+.menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:700px){
+    .army{
+        font-size: 25vw ;
+    }
+    .logo{
+        width: 15vw;
+        height: 20vh;
+        margin-left: 5%;
+    }
+    .menu{
+        display: grid;
+        text-decoration: none;
+        font-size:5vh;
+        margin-top: 5%;
+        margin-left: 85%;
+        color: white;
+        position: fixed;
+    }
+    .list{
+        display: none;
+    }
+    .ul {
+       display: grid;
+       justify-content: center ;
+    }
+    .ul a {
+        margin-top: 8%;
+    }
+    .pratyuday{
+        font-size: 3vh;
+    }
+    .slogan{
+        font-size: 5vw;
+        margin-top:-5% ;
+    }
+}
+
+    

@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.india{
+    margin-left: 30px;
+    position: relative;
+    font-family: 'Lemon', serif;
+    color: white;
+}
+.graph1{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color:white;
+}
+p{
+    margin-right: 350px;
+    line-height: 25px;
+}
+.whole{
+    margin-top: 20px;
+}
+body{ 
+    background: linear-gradient(rgba(0, 88, 104, 0.74),rgba(0, 0, 0, 0.781)) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.pic1{
+    height: 150px; 
+    width: 300px;
+    position: fixed;
+    margin-top: 180px;
+    margin-left: 670px;
+}

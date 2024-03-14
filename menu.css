@@ -1,0 +1,54 @@
+.heading{
+    display: none;
+}
+
+.bars{
+    display: none;
+}
+
+
+@media (max-width:600px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .bc{
+        display: grid;
+        background: linear-gradient(rgba(0,0,0,0.2),rgba(0, 0, 0, 0.356)),url(./war-conflict-landscape-with-tank-low-angle.jpg);;
+        position: absolute; 
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+    }
+    .heading{
+       display: grid;
+       color: white;
+       font-size: 40px;
+       text-align: center;
+       margin-top: 80px;
+       font-weight: 100;
+       font-family: 'Lemon', serif;
+   }
+   .bars{
+       display: grid;
+       text-align: center;
+       margin-bottom: 80px;
+       font-family: 'Salsa', cursive;;
+       
+   }
+   a{
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       border: 1px solid white;
+       padding: 5px;
+       margin: 10px;
+       transition: 0.5s;
+   }
+   .bars :hover{
+       box-shadow: 2%;
+       color: lightblue;
+       margin-right: 5px;
+   }
+}
